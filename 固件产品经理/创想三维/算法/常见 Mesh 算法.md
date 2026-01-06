@@ -570,5 +570,3 @@ function OptimizeFillByMeshFeature(mesh, base_density, curv_thresh) {
 4. **高频延伸问题**：
    - “针对入门级用户，如何设计 Creality Slicer 的 Mesh 算法自动修复流程？”（阈值自动适配、一键触发、实时预览）
    - “对比 Bambu Studio 和 Creality Slicer 的布尔运算，如何在产品中体现差异？”（模型复杂度、生态兼容性、用户群体）
-
-需要我为你整理**各模块算法的产品侧落地策略清单**，让你在面试中更精准地结合算法与产品设计吗？
