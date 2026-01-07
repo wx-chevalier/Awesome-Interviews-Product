@@ -214,16 +214,20 @@ class ConfigParser:
 ## 三、核心代码运行前置条件
 
 1. **环境依赖**：
+
    - 主机系统：Linux（树莓派 OS、Ubuntu 等）；
    - Python 版本：Python 3.7+；
    - 依赖库：`pyserial`（串口通信）、`numpy`（数值计算）、`configparser`（配置解析）；
+
 2. **编译 C 扩展**：
+
    ```bash
    # 进入 Klipper 目录，编译 C 扩展（高性能计算模块）
    cd ~/klipper
    make menuconfig  # 配置 MCU 型号
    make  # 编译上位机 C 扩展和 MCU 固件
    ```
+
 3. **启动上位机**：
    ```bash
    # 启动 Klipper 上位机核心进程
